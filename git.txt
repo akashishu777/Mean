@@ -1,0 +1,69 @@
+- Git
+
+[Add your Git username and set your email]
+git config --global user.name "YOUR_USERNAME"
+
+[Then verify that you have the correct username:]
+git config --global user.name
+
+[To set your email address, type the following command:]
+git config --global user.email "your_email_address@example.com"
+
+[To verify that you entered your email correctly, type:]
+git config --global user.email
+
+-- [Check your information] --
+
+git config --global --list
+
+-- [Go to the master branch to pull the latest changes from there ] --
+git checkout master
+
+
+git init 
+
+ls -la
+
+rm -rf .git
+
+git status
+
+touch .gitignore (add the file names which you want to ignore)
+
+git ignore ()
+
+
+get add -A
+
+git add .gitignore
+
+git reset ex.py (file name) --remove from staging area
+
+git reset    -- remove all from staging area
+
+git add filename.cs  -- adding for commit in stagin area
+
+---commiting the file -------
+git commit -m "your commit msg here"
+
+
+git log
+
+git clone (your url)   --- to get the project on local
+
+git remote -v
+
+git remote -a (branch)
+
+git pull origin master
+
+git push origin master
+
+git 	
+
+
+
+
+
+
+
